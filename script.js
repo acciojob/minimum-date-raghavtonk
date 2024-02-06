@@ -1,13 +1,16 @@
 function minDate(dates) {
   //write you code here
+	// console.log(dates)
+	dates.sort();
+	return(dates[0])
 }
-
+ 
 // Do not change the code
 
 var dates = [
-  "2023/03/01",
   "2023/03/02",
   "2023/03/03",
+  "2023/03/01",
   "2023/03/04",
   "2023/03/05",
   "2023/03/06",
@@ -36,5 +39,5 @@ var dates = [
   "2023/03/29",
   "2023/03/30",
 ];
-
-alert(minDate(dates));
+  
+alert(minDate(dates)); 
